@@ -9,7 +9,12 @@ public class ArithmeticDemo {
         int quotient = num1 / num2;
         int remainder = num1 % num2;
         int expressionResult = num1 + num2 * 2 - (num1 / num2);
-
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
+        System.out.println("Remainder: " + remainder);
+        System.out.println("Expression Result: " + expressionResult); // Explain order of operations
 
     }
 }
